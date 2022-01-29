@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 200px;
+    width: 100%;
+    background-color: #006400;
+   
+    
+}
+/* section{
+    background-image:url(Types-of-Education.jpg) ;
+} */
+
+.box{
+    /* background-color: #b8a7f1; */
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-gap: 6px 3px; 
+}
+.box-1{
+    height: 60px;
+    background-color: #60ac60;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    
+}
+.box-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 400px;
+    background-color: #8188f8;
+}
+.box-3{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    height: 336px;
+    background-color: #8188f8;
+}
+.box-4{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    /* height: 100px; */
+    background-color: #8188f8;
+}
+.box-5{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100px;
+    background-color: #60ac60;
+}
